@@ -1,0 +1,58 @@
+.container {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: backgroundAnimation 15s linear infinite;
+  }
+  
+  @keyframes backgroundAnimation {
+    0% {
+      background-color: rgb(32, 32, 32);
+    }
+   25% {
+      background-color: rgb(102, 102, 102);
+    }
+    50% {
+        background-color: rgb(41, 41, 41);
+      }
+      75% {
+        background-color: rgb(109, 109, 109);
+      }
+    100% {
+      background-color: rgb(32, 32, 32);
+    }}
+    img {
+        height:8cm;
+        width:10cm;
+        border-radius: 30px;
+        align-items: center ;
+    
+      }
+      .subscribe-button {
+        display: block;
+        width: 300px;
+        height: 100px;
+        background-color: rgb(23, 129, 58);
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        line-height: 50px;
+        font-size: 29px;
+        font-weight: bold;
+        border-radius: 15px;transition: transform 0.3s ease;
+
+      }
+      .subscribe-button:hover {
+        background-color: rgb(55, 73, 112);
+        transform: translateY(-10px);
+      }
+      .p {
+        font-size: 30px;
+      }
+      .s {
+       padding-bottom: 100px;
+      }
