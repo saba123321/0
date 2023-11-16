@@ -164,9 +164,6 @@ img {
 
 @media screen and (max-width: 768px) {
   body {
-
+    height: 1600px;
   }
-  .container {
-
-    height: 1900px;
 }
